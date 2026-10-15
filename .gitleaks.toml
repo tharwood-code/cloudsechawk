@@ -1,0 +1,11 @@
+# gitleaks config: default rules plus allowlist for documented placeholders.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Example values that are documented placeholders, never real secrets"
+regexes = [
+  '''change-me''',
+  '''203\.0\.113\.''',            # RFC 5737 documentation range
+  '''xxxxxxxxxxxxxxxxxxxxxxxx''',
+]

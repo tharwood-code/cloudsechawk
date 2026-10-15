@@ -1,0 +1,12 @@
+# secrets / local state (every module)
+**/.env
+**/terraform.tfvars
+**/*.auto.tfvars
+**/.terraform/
+**/terraform.tfstate*
+*.pem
+*.key
+*.log
+__pycache__/
+.DS_Store
+Thumbs.db
