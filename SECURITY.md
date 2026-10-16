@@ -1,6 +1,6 @@
 # Security policy
 
-Everything in this repository is meant to be copied into other people's environments, so a
+Everything in this repository (and the other repositories of the sentronel organization) is meant to be copied into other people's environments, so a
 flaw here can propagate. Please report problems privately.
 
 **How:** use GitHub's private vulnerability reporting on this repository (*Security* tab →

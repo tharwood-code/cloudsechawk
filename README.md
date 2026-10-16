@@ -1,12 +1,15 @@
-# cloudsechawk
+# sentronel
 
-Practical, runnable code for cloud and Kubernetes security engineers and the platform teams
-they work with. Everything here was built and exercised in a private lab first; nothing is
-published until it has run end to end.
+The core Sentronel platform: practical, runnable security and compliance tooling for cloud and
+Kubernetes engineers and the platform teams they work with. Everything here was built and
+exercised in a private lab first; nothing is published until it has run end to end.
 
 The focus: supply-chain controls (mirror, scan, sign, admit), Kubernetes hardening you can
-measure (CIS, policy, audit), and AWS posture checks that run on a schedule with the least
+measure (CIS, policy, audit), and cloud posture checks that run on a schedule with the least
 privilege they need — each as a self-contained module with its own README and a cost note.
+
+Standalone tools that don't belong in the platform get their own repository under the
+[sentronel](https://github.com/sentronel) organization.
 
 ## Modules
 
